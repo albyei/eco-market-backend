@@ -1,6 +1,7 @@
-import express from "express";
+import { Router } from "express";
+import rateLimit from "express-rate-limit";
 import {
-  authentification,
+  authentication,
   changeProfile,
   createUser,
   deleteUser,
@@ -16,28 +17,23 @@ import {
 import uploadFileUser from "../middlewares/userUpload";
 import { verifyToken, verifyRole } from "../middlewares/authorization";
 
-const app = express();
-app.use(express.json());
+const router = Router();
 
-app.get(`/`, getAlluser);
-app.post(
-  `/create`,
-  [uploadFileUser.single("picture"), verifyAddUser],
-  createUser
-);
-app.put(
-  `/:id`,
-  [
-    verifyToken,
-    verifyRole(["MANAGER"]),
-    uploadFileUser.single("picture"),
-    verifyUpdateUser,
-  ],
-  updateUser
-);
-app.post(`/login`, [verifyAuthentification], authentification);
-app.put(`/pic/:id`, [uploadFileUser.single("picture")], changeProfile);
-app.delete(`/:id`, deleteUser);
-app.get(`/profile`, verifyToken, getProfile);
+const loginLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 menit
+  max: 5, // Maksimal 5 percobaan login per IP
+  message: {
+    status: false,
+    message: "Too many login attempts, please try again after 15 minutes",
+  },
+});
 
-export default app;
+router.get(`/`, getAlluser);
+router.post(`/create`, [uploadFileUser.single("picture"), verifyAddUser], createUser);
+router.put(`/:id`, [verifyToken, verifyRole(["ADMIN"]), uploadFileUser.single("picture"), verifyUpdateUser], updateUser);
+router.post(`/login`, [loginLimiter, verifyAuthentification], authentication);
+router.put(`/pic/:id`, [uploadFileUser.single("picture")], changeProfile);
+router.delete(`/:id`, deleteUser);
+router.get(`/profile`, verifyToken, getProfile);
+
+export default router;

@@ -1,0 +1,70 @@
+{"level":"error","message":"Token verification failed: Cannot set properties of undefined (setting 'user')","timestamp":"2025-07-19 12:45:17"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-19 13:11:15"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-19 13:33:17"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:52:30"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:53:01"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:53:15"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:54:06"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:55:22"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:55:23"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:55:25"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:56:14"}
+{"level":"error","message":"Failed to create school info: Cannot destructure property 'totalStudents' of 'req.body' as it is undefined.","timestamp":"2025-07-19 13:56:16"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-19 18:56:13"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:39:01"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:39:03"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:39:05"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:39:06"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:40:32"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:40:34"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-19 19:40:35"}
+{"level":"error","message":"Token verification failed: jwt expired","timestamp":"2025-07-20 10:16:44"}
+{"level":"error","message":"Token verification failed: jwt expired","timestamp":"2025-07-20 10:18:16"}
+{"level":"error","message":"Token verification failed: jwt expired","timestamp":"2025-07-20 10:18:17"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:18:59"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-20 10:19:09"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-20 10:19:11"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:24:43"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:27:18"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:33:03"}
+{"level":"error","message":"No valid Authorization header provided: none","timestamp":"2025-07-20 10:35:16"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:35:29"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:35:30"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:35:32"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:52:16"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 10:52:18"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 11:01:48"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 11:01:49"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 11:01:50"}
+{"level":"error","message":"User not authenticated in createTeacher","timestamp":"2025-07-20 11:02:21"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-20 15:37:40"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-20 15:37:42"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-20 20:12:10"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-20 22:11:15"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-21 08:39:49"}
+{"level":"error","message":"Authentication failed: jwt expired","timestamp":"2025-07-21 10:03:57"}
+{"level":"error","message":"Validasi gagal: Judul harus berupa string, Deskripsi harus berupa string, Tanggal mulai harus berupa tanggal yang valid, Tanggal selesai harus berupa tanggal yang valid, Informasi kontak harus berupa string, Dokumen harus berupa string","timestamp":"2025-07-21 10:26:50"}
+{"level":"error","message":"Validasi gagal: Judul harus berupa string, Deskripsi harus berupa string, Tanggal mulai harus berupa tanggal yang valid, Tanggal selesai harus berupa tanggal yang valid, Informasi kontak harus berupa string, Dokumen harus berupa string","timestamp":"2025-07-21 10:26:54"}
+{"level":"error","message":"Validasi gagal: Judul harus berupa string, Deskripsi harus berupa string, Tanggal mulai harus berupa tanggal yang valid, Tanggal selesai harus berupa tanggal yang valid, Informasi kontak harus berupa string, Dokumen harus berupa string","timestamp":"2025-07-21 10:26:58"}
+{"level":"error","message":"Validasi gagal: Tanggal selesai harus setelah tanggal mulai","timestamp":"2025-07-21 10:32:18"}
+{"level":"error","message":"Validasi gagal: \"title\" is not allowed to be empty","timestamp":"2025-07-21 10:37:32"}
+{"level":"error","message":"Validasi gagal: \"description\" is not allowed to be empty","timestamp":"2025-07-21 10:37:38"}
+{"level":"error","message":"Validasi gagal: \"contactInfo\" is not allowed to be empty","timestamp":"2025-07-21 10:37:45"}
+{"level":"error","message":"Token verification failed: jwt expired","timestamp":"2025-07-21 11:04:22"}
+{"level":"error","message":"Token verification failed: jwt expired","timestamp":"2025-07-21 11:04:32"}
+{"level":"error","message":"Validasi gagal: Judul wajib diisi, Deskripsi wajib diisi, Tanggal mulai wajib diisi, Tanggal selesai wajib diisi, Informasi kontak wajib diisi","timestamp":"2025-07-21 11:37:34"}
+{"level":"error","message":"Validasi gagal: Judul wajib diisi, Deskripsi wajib diisi, Tanggal mulai wajib diisi, Tanggal selesai wajib diisi, Informasi kontak wajib diisi","timestamp":"2025-07-21 11:37:48"}
+{"level":"error","message":"Validasi gagal: \"document\" is not allowed to be empty","timestamp":"2025-07-21 11:52:47"}
+{"level":"error","message":"Validasi gagal: \"document\" is not allowed to be empty","timestamp":"2025-07-21 11:52:59"}
+{"level":"error","message":"Failed to create user: \n\u001b[31mInvalid \u001b[1m`prisma.user.create()`\u001b[22m invocation in\u001b[39m\n\u001b[4mC:\\Users\\MOLKET012\\Documents\\JH\\eco-market-1\\src\\controllers\\userC.ts:20:39\u001b[24m\n\n  \u001b[2m\u001b[90m17\u001b[39m \u001b[36mlet\u001b[39m filename = request\u001b[34m.\u001b[39mfile ? path\u001b[34m.\u001b[39m\u001b[36mbasename\u001b[39m\u001b[34m(\u001b[39mrequest\u001b[34m.\u001b[39mfile\u001b[34m.\u001b[39mpath\u001b[34m)\u001b[39m \u001b[34m:\u001b[39m \u001b[1m\u001b[32m\"\"\u001b[39m\u001b[22m\u001b[2m\u001b[34m;\u001b[39m\u001b[22m\n  \u001b[2m\u001b[90m18\u001b[39m \u001b[36mconst\u001b[39m hashedPassword = \u001b[36mawait\u001b[39m bcrypt\u001b[34m.\u001b[39m\u001b[36mhash\u001b[39m\u001b[34m(\u001b[39mpassword\u001b[34m,\u001b[39m \u001b[36m10\u001b[39m\u001b[34m)\u001b[39m\u001b[34m;\u001b[39m\u001b[22m\n  \u001b[2m\u001b[90m19\u001b[39m \u001b[22m\n\u001b[1m\u001b[31m→\u001b[39m\u001b[22m \u001b[2m\u001b[90m20\u001b[39m \u001b[36mconst\u001b[39m newUser = \u001b[36mawait\u001b[39m prisma\u001b[34m.\u001b[39muser\u001b[34m.\u001b[39m\u001b[36mcreate\u001b[39m\u001b[34m(\u001b[39m\u001b[22m\nUnique constraint failed on the constraint: `User_email_key`","timestamp":"2025-07-21 11:53:16"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:17:55"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:17:57"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:17:58"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:17:59"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:00"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:01"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:02"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:04"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:05"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:06"}
+{"level":"error","message":"Validation error in verifyUpdateSchoolInfo: \"major\" must be one of [RPL, TKJ, PG]","timestamp":"2025-07-21 14:18:07"}

@@ -2,7 +2,7 @@ import multer from "multer";
 import path from "path";
 import fs from "fs";
 
-const uploadDir = path.join(__dirname, "..", "..", "public", "profile_picture");
+const uploadDir = path.join(__dirname, "..", "..", "public", "ppdb_documents");
 
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
@@ -18,19 +18,19 @@ const storage = multer.diskStorage({
   },
 });
 
-const uploadFileUser = multer({
+const uploadFilePpdb = multer({
   storage: storage,
   limits: { fileSize: 5 * 1024 * 1024 }, // Batas 5MB
   fileFilter: (req, file, cb) => {
-    const filetypes = /jpeg|jpg|png/;
+    const filetypes = /pdf|doc|docx|jpg|jpeg|png/;
     const mimetype = filetypes.test(file.mimetype);
     const extname = filetypes.test(path.extname(file.originalname).toLowerCase());
 
     if (mimetype && extname) {
       return cb(null, true);
     }
-    cb(new Error("Only images (jpeg, jpg, png) are allowed"));
+    cb(new Error("Only PDF, DOC, DOCX, JPG, JPEG, or PNG files are allowed"));
   },
 });
 
-export default uploadFileUser;
+export default uploadFilePpdb;
